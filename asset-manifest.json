@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.283b44c5.css",
-    "main.js": "/website/static/js/main.7e4bdd3f.js",
-    "static/js/937.92431b9f.chunk.js": "/website/static/js/937.92431b9f.chunk.js",
-    "static/media/chatbot.png": "/website/static/media/chatbot.b46fdda8699808c03378.png",
-    "static/media/shopping-cart.png": "/website/static/media/shopping-cart.a2c9913881307874bdb9.png",
-    "static/media/memory-card.png": "/website/static/media/memory-card.4c23d4eb81b991f79770.png",
-    "static/media/etch-a-sletch.png": "/website/static/media/etch-a-sletch.3be5caef2aa7b913d40b.png",
-    "static/media/calculator.png": "/website/static/media/calculator.fde0a1cdc632a147f9a7.png",
-    "static/media/weather-app.png": "/website/static/media/weather-app.b3199d2d588e420c3994.png",
-    "static/media/Logo.svg": "/website/static/media/Logo.adbb15885980b4f620af19b2135f3571.svg",
-    "static/media/about-backgroud.svg": "/website/static/media/about-backgroud.95c02b385bc8e24549fb.svg",
-    "static/media/background.svg": "/website/static/media/background.82107eaf452397b512c0.svg",
-    "index.html": "/website/index.html",
-    "main.283b44c5.css.map": "/website/static/css/main.283b44c5.css.map",
-    "main.7e4bdd3f.js.map": "/website/static/js/main.7e4bdd3f.js.map",
-    "937.92431b9f.chunk.js.map": "/website/static/js/937.92431b9f.chunk.js.map"
+    "main.css": "/static/css/main.c48b32e9.css",
+    "main.js": "/static/js/main.fde8744c.js",
+    "static/js/937.92431b9f.chunk.js": "/static/js/937.92431b9f.chunk.js",
+    "static/media/chatbot.png": "/static/media/chatbot.b46fdda8699808c03378.png",
+    "static/media/shopping-cart.png": "/static/media/shopping-cart.a2c9913881307874bdb9.png",
+    "static/media/memory-card.png": "/static/media/memory-card.4c23d4eb81b991f79770.png",
+    "static/media/etch-a-sletch.png": "/static/media/etch-a-sletch.3be5caef2aa7b913d40b.png",
+    "static/media/calculator.png": "/static/media/calculator.fde0a1cdc632a147f9a7.png",
+    "static/media/weather-app.png": "/static/media/weather-app.b3199d2d588e420c3994.png",
+    "static/media/Logo.svg": "/static/media/Logo.adbb15885980b4f620af19b2135f3571.svg",
+    "static/media/about-backgroud.svg": "/static/media/about-backgroud.95c02b385bc8e24549fb.svg",
+    "static/media/background.svg": "/static/media/background.82107eaf452397b512c0.svg",
+    "index.html": "/index.html",
+    "main.c48b32e9.css.map": "/static/css/main.c48b32e9.css.map",
+    "main.fde8744c.js.map": "/static/js/main.fde8744c.js.map",
+    "937.92431b9f.chunk.js.map": "/static/js/937.92431b9f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.283b44c5.css",
-    "static/js/main.7e4bdd3f.js"
+    "static/css/main.c48b32e9.css",
+    "static/js/main.fde8744c.js"
   ]
 }
