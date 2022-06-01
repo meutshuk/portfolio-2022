@@ -90,7 +90,7 @@ export const Nav = () => {
       <div
         className={
           navbar // navbar background color chamge on scroll
-            ? "fixed w-full  mx-auto z-[10000] bg-gray-50 transition duration-500"
+            ? "fixed w-full px-4 mx-auto z-[10000] bg-gray-50 transition duration-500"
             : "fixed w-full px-4 md:p-0 mx-auto"
         }
       >
