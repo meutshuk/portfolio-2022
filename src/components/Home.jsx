@@ -1,31 +1,31 @@
 import React from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import Resume from "./Resume.pdf";
 
 // import Typewriter from 'typewriter-effect/dist/core';
 
 export const Home = () => {
-  
   React.useEffect(() => {
-    var app = document.getElementById('appp');
+    var app = document.getElementById("appp");
 
     var typewriter = new window.Typewriter(app, {
       loop: true,
       delay: 75,
     });
-    
+
     typewriter
       .pauseFor(2500)
-      .typeString('I am a Full Stack Web Developer')
+      .typeString("I am a Full Stack Web Developer")
       .pauseFor(300)
       .deleteChars(31)
-      .typeString('Designer')
+      .typeString("Designer")
       .pauseFor(1000)
       .deleteChars(8)
       .typeString('<span style="color: #27ae60;">Photographer</span>')
       .pauseFor(1000)
       .start();
-  }, []);    
+  }, []);
 
   const particlesInit = async (main) => {
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
@@ -193,9 +193,22 @@ export const Home = () => {
         <div className="text-[8vw]  tracking-wider text-center">
           Utshuk Raj Dhamala
         </div>
-        <div className="text-xl sm:text-2xl md:text-4xl text-red-300" id="appp">
-          
-        </div>
+        <div
+          className="text-xl sm:text-2xl md:text-4xl text-red-300"
+          id="appp"
+        ></div>
+        <a
+          className="relative inline-block group focus:outline-none mt-16 focus:ring"
+          href={Resume}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <span className="absolute inset-0 transition-transform translate-x-0 translate-y-0 bg-yellow-300 group-hover:translate-y-1.5 group-hover:translate-x-1.5"></span>
+
+          <span className="relative inline-block px-8 py-3 text-sm font-bold tracking-widest uppercase border-2 border-current">
+            Resume
+          </span>
+        </a>
       </div>
     </div>
   );

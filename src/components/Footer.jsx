@@ -27,18 +27,11 @@ export const Footer = () => {
               />
             </g>
           </svg>
-          <a
-            href="#about"
-            className="text-gray-600 ml-1"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            @utshuk
-          </a>
+          <div className="text-gray-600 ml-1">@utshuk</div>
         </div>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a
-            className="text-gray-500"
+            className="text-gray-500 hover:text-blue-600"
             href="https://www.facebook.com/me.utshuk"
             target="_blank"
             rel="noreferrer"
@@ -56,7 +49,7 @@ export const Footer = () => {
           </a>
 
           <a
-            className="ml-3 text-gray-500"
+            className="ml-3 text-gray-500 hover:text-black"
             href="https://github.com/meutshuk"
             target="_blank"
             rel="noreferrer"
@@ -73,7 +66,7 @@ export const Footer = () => {
             </svg>
           </a>
           <a
-            className="ml-3 text-gray-500"
+            className="ml-3 text-gray-500 hover:text-blue-500"
             href="https://www.linkedin.com/in/utshuk-dhamala-08125118b/"
             target="_blank"
             rel="noreferrer"
