@@ -63,6 +63,7 @@ export const Contact = () => {
                     placeholder="NAME"
                     defaultValue=""
                     name="user-first"
+                    required
                   />
                 </div>
                 <div className="app-form-group">
@@ -70,6 +71,7 @@ export const Contact = () => {
                     className="app-form-control"
                     placeholder="EMAIL"
                     name="user-email"
+                    required
                   />
                 </div>
 
@@ -78,6 +80,7 @@ export const Contact = () => {
                     className="app-form-control"
                     placeholder="MESSAGE"
                     name="message"
+                    required
                   />
                 </div>
                 <div className="app-form-group buttons">
