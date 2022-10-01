@@ -5,7 +5,7 @@ import MemoryCard from "./images/memory-card.png";
 import Chatbot from "./images/chatbot.png";
 import Weather from "./images/weather-app.png";
 import Shopping from "./images/shopping-cart.png";
-import DevtoClone from "./images/dev-to-clone";
+import DevtoClone from "./images/dev.png";
 import Cards from "./Cards";
 
 export default function Projects() {
