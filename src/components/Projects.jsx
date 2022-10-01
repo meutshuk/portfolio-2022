@@ -5,6 +5,7 @@ import MemoryCard from "./images/memory-card.png";
 import Chatbot from "./images/chatbot.png";
 import Weather from "./images/weather-app.png";
 import Shopping from "./images/shopping-cart.png";
+import DevtoClone from "./images/dev-to-clone";
 import Cards from "./Cards";
 
 export default function Projects() {
@@ -14,6 +15,13 @@ export default function Projects() {
       image: Chatbot,
       gitLink: "https://github.com/meutshuk/utshukAppliedProject",
       link: "https://chatbot1121.pythonanywhere.com",
+    },
+    {
+
+      name:'Dev.to Clone',
+      image:DevtoClone
+      gitLink:'https://github.com/meutshuk/instagram',
+      link:'https://instagram-meutshuk.vercel.app/utshuk'
     },
     {
       name: "Calculator",
@@ -39,12 +47,12 @@ export default function Projects() {
       gitLink: "https://github.com/meutshuk/weather-app",
       link: "https://meutshuk.github.io/weather-app/",
     },
-    {
-      name: "Shopping App",
-      image: Shopping,
-      gitLink: "https://github.com/meutshuk/shopping-cart",
-      link: "https://meutshuk.github.io/shopping-cart/",
-    },
+    // {
+    //   name: "Shopping App",
+    //   image: Shopping,
+    //   gitLink: "https://github.com/meutshuk/shopping-cart",
+    //   link: "https://meutshuk.github.io/shopping-cart/",
+    // },
   ];
 
   
