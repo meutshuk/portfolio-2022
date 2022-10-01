@@ -1,4 +1,4 @@
-import React, {  } from "react";
+import React from "react";
 import Calculator from "./images/calculator.png";
 import Etch from "./images/etch-a-sletch.png";
 import MemoryCard from "./images/memory-card.png";
@@ -17,11 +17,10 @@ export default function Projects() {
       link: "https://chatbot1121.pythonanywhere.com",
     },
     {
-
-      name:'Dev.to Clone',
-      image:DevtoClone
-      gitLink:'https://github.com/meutshuk/instagram',
-      link:'https://instagram-meutshuk.vercel.app/utshuk'
+      name: "Dev.to Clone",
+      image: DevtoClone,
+      gitLink: "https://github.com/meutshuk/instagram",
+      link: "https://instagram-meutshuk.vercel.app/utshuk",
     },
     {
       name: "Calculator",
@@ -55,8 +54,6 @@ export default function Projects() {
     // },
   ];
 
-  
-
   const card = projectsObj.map((item) => {
     return (
       <Cards
@@ -70,7 +67,10 @@ export default function Projects() {
   });
 
   return (
-    <div className="xl:h-screen h-full flex flex-col items-center" id="projects">
+    <div
+      className="xl:h-screen h-full flex flex-col items-center"
+      id="projects"
+    >
       <div className="mt-10 text-4xl">Projects</div>
       <div className=" py-20 px-10 grid xl:grid-cols-3 grid-cols-1 auto-rows-auto gap-x-4 gap-y-8 items-stretch md:grid-cols-2 justify-evenly content-evenly justify-items-center">
         {card}
