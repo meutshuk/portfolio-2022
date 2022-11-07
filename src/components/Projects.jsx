@@ -4,7 +4,7 @@ import Etch from "./images/etch-a-sletch.png";
 import MemoryCard from "./images/memory-card.png";
 import Chatbot from "./images/chatbot.png";
 import Weather from "./images/weather-app.png";
-import Shopping from "./images/shopping-cart.png";
+import Wordle from "./images/wordle.png";
 import DevtoClone from "./images/dev.png";
 import Cards from "./Cards";
 
@@ -23,10 +23,10 @@ export default function Projects() {
       link: "https://instagram-meutshuk.vercel.app/utshuk",
     },
     {
-      name: "Calculator",
-      image: Calculator,
-      gitLink: "https://github.com/meutshuk/calculator",
-      link: "https://meutshuk.github.io/calculator/",
+      name: "Wordle Clone",
+      image: Wordle,
+      gitLink: "https://github.com/meutshuk/wordle-clone",
+      link: "https://wordle-clone-blush.vercel.app/",
     },
     {
       name: "Etch-a-Sketch",
